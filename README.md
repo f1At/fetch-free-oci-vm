@@ -1,5 +1,3 @@
-这是一份为你翻译好的英文版 Markdown 文件。你可以直接将以下内容保存为 `.md` 文件，发布到你的英文博客或 GitHub 仓库中：
-
 ---
 
 # Oracle Cloud (OCI) ARM Free Tier (A1.Flex) Automated Provisioning Script & Ultimate Troubleshooting Guide
@@ -139,9 +137,9 @@ Create a file named `auto_a1.sh` on your server, paste the following content, an
 # =================================================================
 # 🛠️ Configuration Section (Required)
 # =================================================================
-COMPARTMENT_ID="ocid1.tenancy.oc1..aaaaaaaaxxxxxxxxxxxxxxxxxxxxxxxx"
-SUBNET_ID="ocid1.subnet.oc1.eu-frankfurt-1.aaaaaaaaxxxxxxxxxxxxxxxxxxxxxxxx"
-IMAGE_ID="ocid1.image.oc1.eu-frankfurt-1.aaaaaaaaxxxxxxxxxxxxxxxxxxxxxxxx"
+COMPARTMENT_ID="<YOUR OWN COMPARTMENT_ID>"
+SUBNET_ID="<YOUR OWN SUBNET_ID>"
+IMAGE_ID="<YOUR OWN IMAGE_ID>"
 AD="RupR:EU-FRANKFURT-1-AD-1"   # Remember to update your exclusive AD prefix
 SSH_KEY_FILE="/home/ubuntu/.ssh/id_rsa.pub"   # SSH public key path for current user
 
